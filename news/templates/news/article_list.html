@@ -1,0 +1,17 @@
+{% extends 'main/layout.html' %}
+{% block title %}News{% endblock %}
+{% block body %}
+
+<center>
+    <h1 class="h1">Новости</h1>
+    <br>
+                {% for new in object_list %}
+                    <div class="news">
+                        <p>Name state: {{ new.name }}</p>
+                        <p>Anons: {{ new.anons }}</p>
+                        <p>Data :{{ new.data }}</p>
+                        <a href="{% url 'news-detail' new.id %}" class="gradient-button">Button</a>
+                    </div>
+                {% endfor %}
+</center>
+{% endblock %}

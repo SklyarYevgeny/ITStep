@@ -1,0 +1,178 @@
+body {
+    background: #e9f0f2;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    transition: all .6s ease;
+}
+
+a:hover {
+    color: orange;
+}
+
+p {
+    font-size:17pt;
+}
+
+.h2 {
+    margin-left: 325px;
+}
+
+aside {
+    float: left;
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #6a9ba6;
+    padding: 20px;
+    border-right: 5px solid lightblue;
+}
+
+img {
+    width: 200px;
+    padding: 20px;
+    position: relative;
+    right: -10px;
+}
+
+.news{
+     display: block;
+     width: width px;
+     height: 245px;
+     border: 7px ridge lightblue;
+     margin-left: 325px;
+}
+
+.form-control {
+    width: 550px;
+}
+
+.add_news {
+    padding-top:50px;
+}
+
+.gradient-button {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+
+.fa {
+    padding-right: 5px;
+}
+
+.text {
+    color: #74593D;
+    width: 900px;
+    height: 300px;
+}
+
+.btn {
+    display: inline-flex;
+    margin-right: 5px;
+}
+
+.btn_2 {
+    display: inline-flex;
+    position: relative;
+    margin-left: 5px;
+    left: 150px;
+}
+
+.title {
+    margin-left: 330px;
+}
+
+.h1 {
+    margin-left: 325px;
+}
+
+.contacts {
+    display: inline-flex;
+    padding: 30px;
+}
+
+.img_2 {
+    width: 100%;
+    height: 100%;
+}
+
+.color {
+    color: orange;
+
+}
+
+.h4 {
+    margin-right: 700px;
+    color: orange;
+}
+
+.job {
+    margin-left: 397px;
+    font-size: 17px;
+}
+
+.job2 {
+    margin-right: 526px;
+    font-size: 17px;
+}
+
+.job3 {
+    margin-left: 173px;
+    font-size: 17px;
+}
+
+.job4 {
+    margin-right: 145px;
+    font-size: 17px;
+}
+
+.work {
+    margin-right: 610px;
+    color: orange;
+}
+
+.job5 {
+    margin-right: 270px;
+    font-size: 17px;
+}
+
+.job6 {
+    margin-left: 133px;
+    font-size: 17px;
+}
+
+.job7 {
+    margin-right: 280px;
+    font-size: 17px;
+}
+
+.job8 {
+    margin-left: 92px;
+    font-size: 17px;
+}
+
+.job9 {
+    margin-right: 220px;
+    font-size: 17px;
+}
+
+.job10 {
+    margin-right: 217px;
+    font-size: 17px;
+}

@@ -1,0 +1,21 @@
+{% extends 'main/layout.html' %}
+{% block title %}Home{% endblock %}
+{% block body %}
+<center>
+<h1 class="h1">Главная страница</h1>
+    <br>
+    <p class="title">Компания ООО <strong><span class="color">«ЛеанГрупп»</span></strong> начала свою деятельность в 1999 году и на сегодняшний день является ведущей компанией по производству ламинатных и экструзионных туб, применяемых в качестве упаковки для косметических средств, средств личной гигиены и по уходу за полостью рта, продуктов питания, репеллентов, товаров бытовой химии, а также фармацевтической продукции. </p>
+    <br>
+    <img class="img_2" src="http://leangroup-by.com/assets/img/laminatnie-tubii.jpg" alt="foto">
+    <p></p>
+</center>
+        <h1>
+            {% for val in values %}
+                {% filter upper %}
+                    <p>Our data : {{ val }}</p>
+                {% endfilter %}
+            {% endfor %}
+        </h1>
+</center>
+{% endblock %}
+
