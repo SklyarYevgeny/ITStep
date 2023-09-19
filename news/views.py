@@ -43,6 +43,7 @@ class NewsUpdateView(UpdateView):
     model = Articles
     template_name = 'news/create_news.html'
     form_class = ArticlesForms
+    success_url = '/news/article_list'
 
 
 class ArticleListView(ListView):

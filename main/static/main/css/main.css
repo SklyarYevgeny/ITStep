@@ -31,13 +31,15 @@ aside {
     background-color: #6a9ba6;
     padding: 20px;
     border-right: 5px solid lightblue;
+    transition: .5s;
+
 }
 
 img {
     width: 200px;
     padding: 20px;
     position: relative;
-    right: -10px;
+
 }
 
 .news{
@@ -73,7 +75,8 @@ img {
 }
 
 .fa {
-    padding-right: 5px;
+    padding-right: 10px;
+    margin-left: 20px;
 }
 
 .text {
